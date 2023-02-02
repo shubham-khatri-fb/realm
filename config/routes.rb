@@ -4,4 +4,6 @@ Rails.application.routes.draw do
     post 'push_job', to: 'push_job_in_redis#push_job'
   end
 
+  get 'health_check', to: 'application#health_check'
+
 end
