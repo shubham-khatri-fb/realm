@@ -1,0 +1,13 @@
+realm:
+  app_id: 'mbb-staging-oeqza'
+  #app_id: 'mbb-realm-mumbai-2-zhldl'
+  is_realm_server: true
+  basic_auth:
+    name: "realm"
+    password: "realm"
+  redis:
+   host: localhost
+   port: 6379
+
+USERNAME: admin
+PASSWORD: admin
